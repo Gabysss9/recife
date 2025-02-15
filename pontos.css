@@ -1,11 +1,20 @@
 * header{
         font-family: 'Lucida Sans', Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
  }
       
  header, footer {
     background: #FEDCD2;
     color: rgb(0, 0, 0);
     padding: 16px;
+ 
+}
+
+footer{
+    justify-content: flex-end;
 }
 
   

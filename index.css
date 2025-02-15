@@ -1,5 +1,9 @@
 * header {
     font-family: 'Lucida Sans', Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   
   header, footer {
@@ -12,17 +16,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     border: 0ch;
-
     }
-  }
-  
-  #logo-header {
-    font-size: 32px;
-  }
-
-  a {
-    text-decoration: none;
-    color: white;
   }
   
   main {
@@ -53,4 +47,5 @@
   footer{
     font-family: 'Segoe UI', Verdana, sans-serif;
     margin: 8px;
+    justify-content: flex-end;
   }
